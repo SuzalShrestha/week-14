@@ -8,7 +8,11 @@ export default function Showcase() {
   return (
     <div>
       <h1>{favPokemon}'s</h1>
-      <h2>Type: {pokeCharacteristics.type}</h2>
+      <h2>
+        <span style={{ backgroundColor: "red" }}>
+          Type: {pokeCharacteristics.type}
+        </span>
+      </h2>
       <h2>Move: {pokeCharacteristics.move}</h2>
       <img src={image} alt="Bulbasaur" />
     </div>
